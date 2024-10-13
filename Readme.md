@@ -10,7 +10,7 @@ This project aims to provide an engaging platform for participants of Hacktoberf
 
 The initial wireframe for the Hacktoberfest Nashik website will be added here. Contributors are encouraged to use this wireframe as a guide for designing the UI/UX.
 
-![Wireframe](path/to/wireframe.png)  <!-- Replace with the actual path to your wireframe image -->
+![Wireframe](https://github.com/GDGC-MET/Hacktoberfest2024Nashik/blob/main/wireframe.png)  <!-- Replace with the actual path to your wireframe image -->
 
 ## Contribution Guidelines
 
