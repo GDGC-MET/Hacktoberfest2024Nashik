@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Hacktoberfest Nashik</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            animation: fadeIn 1s;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        section {
+            margin: 20px 0;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            animation: slideIn 0.5s;
+        }
+        h2 {
+            color: #007BFF;
+        }
+        .team-member {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .team-member img {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            margin-right: 15px;
+            transition: transform 0.3s;
+        }
+        .team-member img:hover {
+            transform: scale(1.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #007BFF;
+            color: white;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                width: 100%;
+                padding: 10px;
+            }
+            .team-member {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .team-member img {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>About Hacktoberfest Nashik</h1>
+</header>
+
+<div class="container">
+
+    <section id="event-details">
+        <h2>Event Details</h2>
+        <p>Hacktoberfest Nashik is a month-long celebration of open source software held every October. It brings together developers, designers, and tech enthusiasts to contribute to open-source projects and enhance their skills while collaborating with like-minded individuals.</p>
+        <p>This year, Hacktoberfest Nashik will feature workshops, talks, and networking opportunities to help participants gain valuable insights into the world of open source.</p>
+    </section>
+
+    <section id="participation-guidelines">
+        <h2>How to Participate</h2>
+        <p>Getting involved in Hacktoberfest Nashik is easy! Here’s how you can participate:</p>
+        <ul>
+            <li>Sign up for Hacktoberfest on the official website.</li>
+            <li>Join our community on Slack/Discord to connect with other participants.</li>
+            <li>Attend our workshops and events throughout October.</li>
+            <li>Contribute to open-source projects listed on our GitHub repository.</li>
+            <li>Complete at least four pull requests to earn exclusive Hacktoberfest swag!</li>
+        </ul>
+    </section>
+
+    <section id="team-members">
+        <h2>Meet the Team</h2>
+        <div class="team-member">
+            <img src="team-member1.jpg" alt="Team Member 1">
+            <div>
+                <strong>Jane Doe</strong>
+                <p>Event Organizer</p>
+            </div>
+        </div>
+        <div class="team-member">
+            <img src="team-member2.jpg" alt="Team Member 2">
+            <div>
+                <strong>John Smith</strong>
+                <p>Community Manager</p>
+            </div>
+        </div>
+        <!-- Add more team members as needed -->
+    </section>
+
+    <section id="media-coverage">
+        <h2>Media Coverage</h2>
+        <p>Hacktoberfest Nashik has been featured in various local media outlets. Here are some highlights:</p>
+        <ul>
+            <li><a href="#">Article 1 - Local News Outlet</a></li>
+            <li><a href="#">Article 2 - Tech Magazine</a></li>
+            <!-- Add more media links as necessary -->
+        </ul>
+    </section>
+
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <p>Hear what participants have to say about Hacktoberfest Nashik:</p>
+        <blockquote>
+            <p>"Hacktoberfest Nashik was an incredible experience! I learned so much and met amazing people."</p>
+            <footer>- Participant Name</footer>
+        </blockquote>
+        <!-- Add more testimonials as needed -->
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2023 Hacktoberfest Nashik. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
