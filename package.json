@@ -1,0 +1,16 @@
+{
+  "name": "hacktoberfest2024nashik",
+  "version": "1.0.0",
+  "description": "Welcome to the **Hacktoberfest Nashik Website** project! This repository is dedicated to creating a comprehensive web application for the Hacktoberfest event in Nashik. Contributors are invited to design the UI/UX and build the application using the MERN stack.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1"
+  }
+}
