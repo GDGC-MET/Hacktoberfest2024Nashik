@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  .container {
+    width: 85%;
+    margin: 0 auto;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 25px 0;
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: #4f46e5;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    float: right;
+  }
+  
+  .nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .nav-links a:hover {
+    color: #140c84;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #D2DCEA;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 42px;
+    font-weight: bold;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-top: 10px;
+    max-width: 600px;
+    margin: 10px auto;
+  }
+  
+  .hero-buttons {
+    margin-top: 20px;
+  }
+  
+  .btn-primary, .btn-secondary {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    background-color: white;
+    color: #4f46e5;
+  }
+  
+  .btn-secondary {
+    background-color: #e2e8f0;
+    color: #4f46e5;
+  }
